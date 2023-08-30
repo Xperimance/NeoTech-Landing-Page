@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;0,500;1,200&family=Roboto:wght@100;300;400&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -5,11 +7,41 @@
 
 .header, .hero {
     background-color: #1F2937;
-    border: 2px solid red;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    padding: 20px;
+}
+
+ul {
+    font-family: 'Roboto', sans-serif;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 0 8px;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:hover,
+a:active {
+    text-decoration: none;
 }
 
 .header h1 {
+    font-family: 'Josefin Sans', sans-serif;
     font-size: 24px;
+    font-weight: bold;
     color: #F9FAF8;
 }
 
