@@ -45,7 +45,27 @@ a:active {
     color: #F9FAF8;
 }
 
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 20px;
+}
+
+.text {
+    width: 50%;
+    margin: 36px;
+}
+
+p {
+    width: 50%;
+    padding: 5px;
+    font-family: 'Roboto', sans-serif;
+}
+
 .hero h2 {
+    font-family: 'Josefin Sans', sans-serif;
     font-size: 48px;
     font-weight: 800;
     color: #F9FAF8;
@@ -56,10 +76,9 @@ a:active {
     font-size: 18px;
 }
 
-.container {
-    background-color: aquamarine;
-    height: 250px;
+img {
     width: 500px;
+    height: auto;
 }
 
 .img {
