@@ -55,12 +55,12 @@ a:active {
 }
 
 .text {
-    width: 50%;
+    width: 65%;
     margin: 64px;
 }
 
 p {
-    width: 65%;
+    width: 70%;
     padding: 5px;
     font-family: 'Roboto', sans-serif;
 }
@@ -77,20 +77,25 @@ p {
     font-size: 18px;
 }
 
-.container img {
-    width: 700px;
-    height: auto;
+.container video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .info h2 {
     text-align: center;
     padding: 64px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 48px;
+    font-weight: 800;
 }
 
 .cyberpunks {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-bottom: 50px;
     gap: 50px;
 }
 
@@ -99,6 +104,7 @@ p {
     padding: 12px 0;
     margin: auto;
     font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
 }
 
 .cyberpunks img {
@@ -142,5 +148,22 @@ button:hover {
 }
 
 .quote {
-    padding: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: grey;
+    padding: 64px 0;
+}
+
+.quote p {
+    font-weight: lighter;
+    font-size: 42px;
+    width: auto;
+}
+
+.quote footer {
+    font-size: 20px;
+    padding-top: 8px;
 }
