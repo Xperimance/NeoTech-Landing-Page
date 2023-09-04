@@ -223,44 +223,6 @@ button:hover {
     background-color: black;
     color: whitesmoke;
   }
-
-  .menu-toggle {
-    display: none; 
-    flex-direction: column;
-    cursor: pointer;
-  }
-  
-  .bar {
-    width: 30px;
-    height: 3px;
-    background-color: white;
-    margin: 3px 0;
-    transition: 0.4s;
-  }
-  .mobile-menu {
-    display: none; /* Initially hide the mobile menu */
-    background-color: black;
-    position: absolute;
-    top: 60px;
-    right: 0;
-    width: 100%;
-    text-align: center;
-  }
-  
-  .mobile-links {
-    list-style: none;
-    padding: 0;
-  }
-  
-  .mobile-links li {
-    padding: 15px 0;
-  }
-  
-  .mobile-links a {
-    color: white;
-    text-decoration: none;
-    font-size: 18px;
-  }
   
   @media screen and (max-width: 768px) {
     .header {
@@ -326,13 +288,5 @@ button:hover {
       flex-direction: column;
       padding: 16px;
       margin: 32px 0;
-    }
-
-    .menu-toggle {
-      display: flex; 
-    }
-  
-    .links {
-      display: none; 
     }
   }
