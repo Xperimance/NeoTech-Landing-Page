@@ -41,7 +41,7 @@ a:active {
     font-size: 40px;
     font-weight: bold;
     color: #F9FAF8;
-    margin: 0 275px;
+    margin: 0 70px;
     font-weight: lighter;
 }
 
@@ -224,4 +224,69 @@ button:hover {
     color: whitesmoke;
   }
   
+  @media screen and (max-width: 768px) {
+    .header {
+      padding: 10px;
+    }
   
+    .header h1 {
+      font-size: 30px;
+      margin: 0 20px;
+    }
+  
+    ul {
+      margin: 0 20px;
+    }
+  
+    .hero {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .text {
+      width: 90%;
+      margin: 32px 0;
+    }
+  
+    .text p {
+      width: 100%;
+      font-size: 16px;
+    }
+  
+    .hero h2 {
+      font-size: 36px;
+    }
+  
+    .cyberpunks {
+      flex-direction: column;
+      gap: 20px;
+    }
+  
+    .cyberpunks p {
+      font-size: 18px;
+    }
+  
+    .cyberpunks img {
+      width: 200px;
+      height: auto;
+    }
+  
+    .quote p {
+      font-size: 28px;
+    }
+  
+    .quote footer {
+      font-size: 16px;
+    }
+  
+    .signup {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .action {
+      flex-direction: column;
+      padding: 16px;
+      margin: 32px 0;
+    }
+  }
